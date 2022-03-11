@@ -1,4 +1,4 @@
-<img src="https://fr.openfoodfacts.org/images/products/762/230/007/5194/front_fr.25.full.jpg" align="right" width="70" height="100" />
+<img src="https://fr.openfoodfacts.org/images/products/762/230/007/5194/front_fr.25.full.jpg" align="right" />
 
 #### [🔗 Discord Link](https://discord.gg/fdp) - [📖 Terms](https://github.com/Stanley-GF/PirateStealer#terms) - [🔨 Builder](https://piratestealer.ru/) - [💎 Premium](https://discord.gg/fdp) - [💡 Features](https://github.com/Stanley-GF/PirateStealer#features)
 
