@@ -1,4 +1,4 @@
-<img src="https://fr.openfoodfacts.org/images/products/762/230/007/5194/front_fr.25.full.jpg" align="right" />
+<img src="https://fr.openfoodfacts.org/images/products/762/230/007/5194/front_fr.25.full.jpg" align="right" width="180px" height="115px" />
 
 #### [🔗 Discord Link](https://discord.gg/fdp) - [📖 Terms](https://github.com/Stanley-GF/PirateStealer#terms) - [🔨 Builder](https://piratestealer.ru/) - [💎 Premium](https://discord.gg/fdp) - [💡 Features](https://github.com/Stanley-GF/PirateStealer#features)
 
@@ -6,6 +6,7 @@
 ```
 Bonjour, si vous êtes ici c'est parce que vous voulez voir que IStealer, service mauvais qui arnaque créé par des bouffons, a été skid de PirateStealer.
 Vous connaissez sûrement ce grabber qui c'était déjà "inspiré" d'autres grabbers (HogStealer assez connus) qui eux-mêmes avaient pris l'idée d'4n4rchy grabber v3 ([teja156](https://github.com/teja156/AnarchyGrabber3) l'a déjà mis sur son github) et bien là on traite d'un autre grabber qui a skid un skid qui a skid (bon après tout je comprends, pourquoi se casser la tête à faire quelque chose alors que l'on peut copier quelque chose qui est "bien fait")
+```
 ```
 	Bref, passont le blabla vous voulez surtout voir la supercherie !
 ```
