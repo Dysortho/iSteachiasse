@@ -9,7 +9,7 @@ Vous connaissez surment ce grabber qui c'était déjà "inspiré" de d'autres gr
 ```
 	Bref, passont le blabla vous voulez surtout voir la supercherie !
 
-![](https://cdn.upload.systems/uploads/HYMDGchM.png)![](https://cdn.upload.systems/uploads/g06dbWfb.png)
+![](https://cdn.upload.systems/uploads/HYMDGchM.png)![](https://cdn.upload.systems/uploads/g06dbWfb.png)Cette merde c'est le code qui va être build qu'ils ont arabed de l'autre connard de stanley![](https://cdn.upload.systems/uploads/CRMaIBJL.png)
 
 # What is PirateStealer ? 
 PirateStealer is an educational purpose only open-source Discord Malware. With an easy to build panel and a "premium" feature (Join Discord for more infos) 
