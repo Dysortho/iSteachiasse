@@ -7,7 +7,7 @@ Bonjour, si vous êtes ici c'est parce que vous voulez voir que IStealer, servic
 Vous connaissez sûrement ce grabber qui c'était déjà "inspiré" d'autres grabbers (HogStealer assez connus) qui eux-mêmes avaient pris l'idée d'4n4rchy grabber v3 ([teja156](https://github.com/teja156/AnarchyGrabber3) l'a déjà mis sur son github) et bien là on traite d'un autre grabber qui a skid un skid qui a skid (bon après tout je comprends, pourquoi se casser la tête à faire quelque chose alors que l'on peut copier quelque chose qui est "bien fait")
 
 
-# Passont le blabla vous voulez surtout voir la supercherie !
+# Passont le blabla vous voulez surtout voir la supercherie ! (les imajs sont mortes)
 
 ![](https://cdn.upload.systems/uploads/HYMDGchM.png)![](https://cdn.upload.systems/uploads/g06dbWfb.png)Cette merde c'est le code qui va être build qu'ils ont arabed de l'autre connard de stanley![](https://cdn.upload.systems/uploads/CRMaIBJL.png)
 
